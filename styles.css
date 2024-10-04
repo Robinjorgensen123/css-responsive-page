@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 20px;
+    
+}
+
+main {
+    display: grid;
+    grid-template-rows:repeat(12, 1fr) ;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+.section__card {
+   display: grid;
+   grid-row: 2 / 6;
+   grid-column: 2 / 5;
+
+}
+
+.section__button {
+    display: flex;
+    justify-self: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color:#536DFE ;
+    color: white;
+}
+
